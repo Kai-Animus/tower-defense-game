@@ -15,7 +15,7 @@ C:/Users/midor/TowerDefense
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57963
+56031
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/midor/TowerDefense
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34300]  Target information:
+Player connection [24912]  Target information:
 
-Player connection [34300]  * "[IP] 10.0.0.158 [Port] 0 [Flags] 2 [Guid] 1888119732 [EditorId] 1888119732 [Version] 1048832 [Id] WindowsEditor(7,C3P02) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [24912]  * "[IP] 10.0.0.158 [Port] 0 [Flags] 2 [Guid] 676220654 [EditorId] 676220654 [Version] 1048832 [Id] WindowsEditor(7,C3P02) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [34300] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [34300] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24912] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24912] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.38f1 (82314a941f2d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Resources/UnitySubsystems
@@ -87,48 +87,48 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
     Vendor:   NVIDIA
     VRAM:     5966 MB
-    Driver:   32.0.15.7688
+    Driver:   32.0.15.7700
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003586 seconds.
-- Loaded All Assemblies, in  0.410 seconds
+Registered in 0.003648 seconds.
+- Loaded All Assemblies, in  0.384 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.340 seconds
-Domain Reload Profiling: 746ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  0.314 seconds
+Domain Reload Profiling: 694ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (166ms)
-		LoadAssemblies (136ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (125ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (163ms)
-			TypeCache.Refresh (161ms)
-				TypeCache.ScanAssembly (145ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (136ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (340ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (314ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (288ms)
+		SetupLoadedEditorAssemblies (270ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (149ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,161 +137,211 @@ Domain Reload Profiling: 746ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.811 seconds
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.751 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.788 seconds
-Domain Reload Profiling: 1593ms
-	BeginReloadAssembly (174ms)
+- Finished resetting the current domain, in  0.883 seconds
+Domain Reload Profiling: 1629ms
+	BeginReloadAssembly (173ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (533ms)
-		LoadAssemblies (375ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (483ms)
+		LoadAssemblies (349ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (261ms)
-			TypeCache.Refresh (195ms)
-				TypeCache.ScanAssembly (177ms)
-			BuildScriptInfoCaches (53ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (788ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (162ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (884ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (614ms)
+		SetupLoadedEditorAssemblies (702ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (392ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5972 unused Assets / (7.1 MB). Loaded Objects now: 6608.
-Memory consumption went from 159.8 MB to 152.7 MB.
-Total: 17.862200 ms (FindLiveObjects: 1.052400 ms CreateObjectMapping: 1.867200 ms MarkObjects: 7.179300 ms  DeleteObjects: 7.761800 ms)
+Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6012 unused Assets / (6.7 MB). Loaded Objects now: 6662.
+Memory consumption went from 164.2 MB to 157.5 MB.
+Total: 18.570900 ms (FindLiveObjects: 1.169800 ms CreateObjectMapping: 2.551000 ms MarkObjects: 9.117300 ms  DeleteObjects: 5.730900 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6001 unused Assets / (6.6 MB). Loaded Objects now: 6662.
+Memory consumption went from 136.1 MB to 129.5 MB.
+Total: 16.255300 ms (FindLiveObjects: 0.889600 ms CreateObjectMapping: 1.240600 ms MarkObjects: 8.710500 ms  DeleteObjects: 5.413200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.676 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.723 seconds
+Domain Reload Profiling: 1396ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (397ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (143ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (724ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (514ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6007 unused Assets / (6.5 MB). Loaded Objects now: 6678.
+Memory consumption went from 150.3 MB to 143.8 MB.
+Total: 15.125100 ms (FindLiveObjects: 1.368000 ms CreateObjectMapping: 1.534000 ms MarkObjects: 7.191800 ms  DeleteObjects: 5.030000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 45195.377857 seconds.
+  path: Assets/Imports/Turret with panels.fbx
+  artifactKey: Guid(1a23c3d5fa5ec8b439f92d9ed8736800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Turret with panels.fbx using Guid(1a23c3d5fa5ec8b439f92d9ed8736800) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10f63ac76c342e3d59e87aedd1847724') in 0.7017723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
 
 ========================================================================
 Received Import Request.
-  Time since last request: 666354.940120 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(a6186e87b479fbe48bf0661157396566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(a6186e87b479fbe48bf0661157396566) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb5b2a8ccf8ece3f920e5d0d5ef87129') in 0.5508663 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 127.542104 seconds.
+  path: Assets/Imports/Missile Launcher.fbx
+  artifactKey: Guid(8de39f5e8fbbe4c4f8565cc6bfbe9f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Missile Launcher.fbx using Guid(8de39f5e8fbbe4c4f8565cc6bfbe9f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '604793783df74586f1024dda687e1a12') in 0.137549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 ========================================================================
 Received Import Request.
-  Time since last request: 115.037358 seconds.
-  path: Assets/Start.mat
-  artifactKey: Guid(a6186e87b479fbe48bf0661157396566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Start.mat using Guid(a6186e87b479fbe48bf0661157396566) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9aee57b046e9c92221208e52098d232') in 0.0161779 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imports/Turret with panels.fbx
+  artifactKey: Guid(1a23c3d5fa5ec8b439f92d9ed8736800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Turret with panels.fbx using Guid(1a23c3d5fa5ec8b439f92d9ed8736800) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc995d702edf58f6d1774ad321584151') in 0.0401212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.676123 seconds.
+  path: Assets/Imports/Missile Launcher.fbx
+  artifactKey: Guid(8de39f5e8fbbe4c4f8565cc6bfbe9f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Missile Launcher.fbx using Guid(8de39f5e8fbbe4c4f8565cc6bfbe9f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd7aca9f97a60715d76a6ef36c1c5ed3') in 0.1757629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imports/Turret.fbx
+  artifactKey: Guid(8d49330bc570c554fa2e1762a73f4e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Turret.fbx using Guid(8d49330bc570c554fa2e1762a73f4e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5637f98a9da5992afe6396f7b23accad') in 0.0383607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.022208 seconds.
+  path: Assets/Imports/Bolts.mat
+  artifactKey: Guid(119ef772437e0534397eda263d1bbba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Bolts.mat using Guid(119ef772437e0534397eda263d1bbba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57c64fc95c271275d99d2f8265bcb211') in 0.0172661 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 498.282988 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/BakedLitForwardPass.hlsl
-  artifactKey: Guid(70003ec87ea6481a920369a377c1b623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/BakedLitForwardPass.hlsl using Guid(70003ec87ea6481a920369a377c1b623) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de4b2c7674f61cd4c88adb12b86420ca') in 0.0017234 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/BakedLitMetaPass.hlsl
-  artifactKey: Guid(f31bf343921b848fa8e5cde15f1dbaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/BakedLitMetaPass.hlsl using Guid(f31bf343921b848fa8e5cde15f1dbaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3d9ace1e46ff8ed696330f218aa12ad') in 0.0013236 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/DepthOnlyPass.hlsl
-  artifactKey: Guid(0acd4fdbcf0cf654a9cdf3e9ccc2edce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/DepthOnlyPass.hlsl using Guid(0acd4fdbcf0cf654a9cdf3e9ccc2edce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a3597dd148d90dbd30d09d0a2769f14') in 0.0012917 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imports/Main Turret.mat
+  artifactKey: Guid(cf1ed5e6052ead14c89e958d111efe06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Main Turret.mat using Guid(cf1ed5e6052ead14c89e958d111efe06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27dcb838c9ce596b61b7d59d64376448') in 0.0367625 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl
-  artifactKey: Guid(c46f85bf266d7496d9b3659acfbdc711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl using Guid(c46f85bf266d7496d9b3659acfbdc711) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '159624978db1148055fadeb86e1a5a94') in 0.0010543 seconds
+  path: Assets/Imports/Stand.mat
+  artifactKey: Guid(0090c96d72ec334408d07da0f74aa7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Stand.mat using Guid(0090c96d72ec334408d07da0f74aa7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae9670bf55c5cbe0860a9a3225e784b8') in 0.0336628 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitGBufferPass.hlsl
-  artifactKey: Guid(5f8cea4f4fce7414ab78bcbf51dca71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitGBufferPass.hlsl using Guid(5f8cea4f4fce7414ab78bcbf51dca71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ffe0ef12fa80706497ab3d1e286dfc1') in 0.001375 seconds
+  Time since last request: 19.936017 seconds.
+  path: Assets/Imports/Main Turret 1.mat
+  artifactKey: Guid(55b4baa779b14504397b660a7039024d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Main Turret 1.mat using Guid(55b4baa779b14504397b660a7039024d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f64bf1eaacda7e58424fae990dec1c5') in 0.0202391 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitDepthNormalsPass.hlsl
-  artifactKey: Guid(ce8b43269e26f4263ac0da53665264b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitDepthNormalsPass.hlsl using Guid(ce8b43269e26f4263ac0da53665264b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a7e8c632368f2b7153398cf0ec2336b') in 0.0011682 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/Stand 1.mat
+  artifactKey: Guid(67eeba6dc4afabb478d100de7ef06b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Stand 1.mat using Guid(67eeba6dc4afabb478d100de7ef06b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3adb51fbf0d514519d93c2b1a31283f0') in 0.014036 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitInput.hlsl
-  artifactKey: Guid(e7ba75cc852b14b7f934978b5697bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitInput.hlsl using Guid(e7ba75cc852b14b7f934978b5697bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '530ba8d4d6e70ec83262cf03b715fd70') in 0.0011987 seconds
+  Time since last request: 100.647147 seconds.
+  path: Assets/Imports/Materials/Turret_GunMetal 1.mat
+  artifactKey: Guid(892a8bf00ce4da642a6f9eb79af0782e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Materials/Turret_GunMetal 1.mat using Guid(892a8bf00ce4da642a6f9eb79af0782e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70bb5c2ffe926fa74ff3f9826b73ec72') in 0.0158595 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitGBufferPass.hlsl
-  artifactKey: Guid(28fcbf208a4c04495b93bb6d554908e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitGBufferPass.hlsl using Guid(28fcbf208a4c04495b93bb6d554908e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e2cd5fb9e640fb745397aef678aa68d') in 0.0009852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/LitForwardPass.hlsl
-  artifactKey: Guid(116bd973269b9f741b7177c8523b9e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitForwardPass.hlsl using Guid(116bd973269b9f741b7177c8523b9e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7d62289de72ed61ed4d0f780108c71f') in 0.0012726 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/Materials/Turret_Metal2.mat
+  artifactKey: Guid(551068d454344e641aaf9fc1a22df3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Materials/Turret_Metal2.mat using Guid(551068d454344e641aaf9fc1a22df3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '186bd215a1897fe147a7c063880e4c40') in 0.0166444 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitMetaPass.hlsl
-  artifactKey: Guid(138efaf7fb432134da44d5a4981a62ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitMetaPass.hlsl using Guid(138efaf7fb432134da44d5a4981a62ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b10186032305acf9093b08411a7a536') in 0.0011724 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/LitGBufferPass.hlsl
-  artifactKey: Guid(92673cbb58cac8e4d8b5d044ce912dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitGBufferPass.hlsl using Guid(92673cbb58cac8e4d8b5d044ce912dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6b9dfc09c4c694cbc46ab687d3c7f50') in 0.0011984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/DepthNormalsPass.hlsl
-  artifactKey: Guid(b76d45ea333b2a049bc45c5328ef3e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/DepthNormalsPass.hlsl using Guid(b76d45ea333b2a049bc45c5328ef3e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efe6f07e39796f524ac068c08499c3fe') in 0.0011636 seconds
+  path: Assets/Imports/Materials/Turret_Metal.mat
+  artifactKey: Guid(ed0e8ce0959e7754d8de7277d88859b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Materials/Turret_Metal.mat using Guid(ed0e8ce0959e7754d8de7277d88859b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '134a827f0ceeeb1ac9bf1607bc5bb5ed') in 0.0180705 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
